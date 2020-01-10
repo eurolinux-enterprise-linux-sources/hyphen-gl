@@ -1,7 +1,7 @@
 Name: hyphen-gl
 Summary: Galician hyphenation rules
 Version: 0.99
-Release: 6%{?dist}
+Release: 7%{?dist}
 Source: http://extensions.services.openoffice.org/files/2004/0/hyph_gl.oxt
 Group: Applications/Text
 URL: https://forxa.mancomun.org/projects/hyphenation-gl
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.99-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.99-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
